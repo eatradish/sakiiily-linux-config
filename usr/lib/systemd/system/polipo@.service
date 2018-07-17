@@ -1,0 +1,12 @@
+[Unit]
+Description=Polipo Http Proxy Service
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+ExecStart=/usr/local/bin/polipo -c /etc/polipo/%i
+
+[Install]
+WantedBy=multi-user.target
+

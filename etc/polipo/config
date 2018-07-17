@@ -1,0 +1,7 @@
+#cat config
+
+proxyAddress = "0.0.0.0"    
+proxyPort = 8118    
+socksParentProxy = "127.0.0.1:1080"    
+socksProxyType = socks5     
+#allowedClients = 127.0.0.1   

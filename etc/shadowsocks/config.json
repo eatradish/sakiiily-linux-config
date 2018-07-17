@@ -1,0 +1,13 @@
+{
+		"server": "",
+		"local_address": "127.0.0.1",
+		"local_port": 1080,
+		"timeout": 300,
+		"workers": 1,
+		"server_port": 10183,
+		"password": "",
+		"method": "chacha20-ietf-poly1305",
+		"plugin": "obfs-local",
+		"plugin_opts": "obfs=http;obfs-host=www.bing.com"
+}
+
