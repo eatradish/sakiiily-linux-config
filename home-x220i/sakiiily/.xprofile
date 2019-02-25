@@ -1,7 +1,5 @@
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export QT5_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
+GTK_IM_MODULE=fcitx5
+XMODIFIERS=@im=fcitx
+QT_IM_MODULE=fcitx5
+
 xcalib -d :0 ~/Thinkpadx240.icc
-
-
